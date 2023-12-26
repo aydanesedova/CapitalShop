@@ -1,0 +1,459 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+nav {
+  background-color: white;
+  height: 92px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .capitalShop {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .capitalShop .capitalShopUl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+nav .capitalShop .capitalShopUl .search {
+  background-color: transparent;
+  border: 1px solid #141517;
+  border-radius: 15px;
+  min-width: 23%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+nav .capitalShop .capitalShopUl .search #inp {
+  background-color: transparent;
+  width: 82%;
+  border: none;
+}
+nav .capitalShop .capitalShopUl .search #btn {
+  background-color: transparent;
+  border: none;
+}
+nav .capitalShop .capitalShopUl .search #btn i {
+  color: #141517;
+  transition: 0.5s ease;
+}
+nav .capitalShop .capitalShopUl .search #btn i:hover {
+  color: #ff2020;
+}
+nav .capitalShop .capitalShopUl li a {
+  font-family: Jost, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #141517;
+  transition: 0.4s ease;
+}
+nav .capitalShop .capitalShopUl li a:hover {
+  color: #ff2020;
+}
+
+#sailUp {
+  width: 100%;
+  min-height: 48px;
+  background-color: #16161A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sailUp .sailUpTxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+  height: 48px;
+}
+#sailUp .sailUpTxt p {
+  color: #fff;
+  font-family: poppins;
+  font-size: 15px;
+  line-height: 26px;
+}
+#sailUp .sailUpTxt p a {
+  color: #cebd9c;
+  font-weight: 600;
+}
+
+#fationSail {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/assets/images/h1_hero1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#fationSail .fationSailTxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+#fationSail .fationSailTxt .fashionSale {
+  font-family: "Clicker Script", cursive;
+  color: #ff2020;
+  font-weight: 400;
+  font-size: 50px;
+}
+#fationSail .fationSailTxt h1 {
+  font-family: Jost, sans-serif;
+  font-size: 55px;
+  color: #292621;
+  font-weight: 600;
+  line-height: 72px;
+}
+#fationSail .fationSailTxt p {
+  width: 87%;
+  font-family: Jost, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #74706b;
+  text-align: center;
+}
+#fationSail .fationSailTxt button {
+  width: 30%;
+  min-height: 48px;
+  border: none;
+  background-color: #292621;
+  font-family: Jost, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  transition: 0.4s ease;
+  color: #fff;
+}
+#fationSail .fationSailTxt button:hover {
+  border: 1px solid #141517;
+  background-color: transparent;
+  color: #141517;
+}
+
+@media screen and (max-width: 768px) {
+  #fationSail .fationSailTxt h1 {
+    font-size: 30px;
+  }
+}
+#trending {
+  width: 100%;
+  min-height: 690px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#trending .trending {
+  border-bottom: 1px solid #dfdbdb;
+  min-height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#trending .trending .trendingThisWeek h2 {
+  font-family: Jost, sans-serif;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 44px;
+  color: #292621;
+}
+#trending .trending .trendingList {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+#trending .trending .trendingList p {
+  font-family: Jost, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  cursor: pointer;
+}
+#trending .cashmere {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#trending .cashmere img {
+  width: 100%;
+  cursor: pointer;
+}
+#trending .cashmere h3 {
+  font-family: Jost, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  min-height: 40px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  line-height: 19px;
+  color: #292621;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+#trending .cashmere h3:hover {
+  color: #ff2020;
+}
+#trending .cashmere span {
+  font-family: Jost, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #605e5b;
+  gap: 20px;
+  cursor: pointer;
+}
+#trending .cashmere span span {
+  color: #cebd9c;
+}
+
+#menFashion {
+  width: 100%;
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#menFashion .menFashionTxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+#menFashion .menFashionTxt img {
+  width: 100%;
+}
+#menFashion .menFashionTxt .menFashionhover {
+  position: absolute;
+  top: 250px;
+}
+#menFashion .menFashionTxt .menFashionhover h2 {
+  font-family: Jost, sans-serif;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 29px;
+}
+
+@media screen and (max-width: 768px) {
+  #trending .trending .trendingList {
+    display: none;
+  }
+}
+#customer {
+  width: 100%;
+  min-height: 434px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F3EAD8;
+}
+#customer .customerTxt {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#customer .customerTxt h2 {
+  font-family: Jost, sans-serif;
+  font-size: 34px;
+  color: #292621;
+  font-weight: 600;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 41px;
+}
+#customer .customerTxt p {
+  color: #292621;
+  font-family: Jost, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  width: 50%;
+  text-align: center;
+}
+#customer .customerTxt .peteyCruiser {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+#customer .customerTxt .peteyCruiser div span {
+  font-family: Jost, sans-serif;
+  font-size: 14px;
+  color: #292621;
+  font-weight: 600;
+}
+#customer .customerTxt .peteyCruiser div p {
+  font-family: Jost, sans-serif;
+  font-size: 16px;
+  color: #74706b;
+  font-weight: 600;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  #customer .customerTxt p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 379px) {
+  #customer .customerTxt h2 {
+    font-size: 20px;
+  }
+  #customer .customerTxt p {
+    font-size: 10px;
+  }
+}
+#youLike {
+  width: 100%;
+  min-height: 804px;
+  display: flex;
+  justify-content: center;
+}
+#youLike .youLikeTxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+}
+#youLike .youLikeTxt h2 {
+  font-family: Jost, sans-serif;
+  font-size: 30px;
+  color: #292621;
+  font-weight: 600;
+}
+#youLike #productsAll {
+  width: 100%;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#youLike #productsAll .miniDiv {
+  width: 33%;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#youLike #productsAll .miniDiv img {
+  width: 95%;
+}
+#youLike #productsAll .miniDiv h2 {
+  color: #141517;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: poppins;
+}
+#youLike #productsAll .miniDiv button {
+  background-color: #141517;
+  font-size: 14px;
+  line-height: 57px;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  transition: 0.5s ease;
+  width: 25%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#youLike #productsAll .miniDiv button:hover {
+  background-color: transparent;
+  color: #141517;
+  border: 1px solid #141517;
+}
+#youLike .loadMore {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#youLike .loadMore #loadMore {
+  min-width: 202px;
+  min-height: 63px;
+  background-color: transparent;
+  border: 3px solid #141517;
+  font-size: 16px;
+  line-height: 57px;
+  color: #141517;
+  font-weight: 700;
+  transition: 0.5s ease;
+}
+#youLike .loadMore #loadMore:hover {
+  background-color: #141517;
+  color: #fff;
+}
+
+@media screen and (max-width: 360px) {
+  #youLike {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  #youLike #productsAll {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #youLike #productsAll .miniDiv {
+    width: 100%;
+  }
+  #youLike #productsAll .miniDiv img {
+    width: 60%;
+  }
+  #youLike #productsAll .miniDiv button {
+    font-size: 8px;
+  }
+}
+footer {
+  width: 100%;
+  min-height: 120px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+footer .copyright {
+  width: 100%;
+  height: 120px;
+  background-color: #141517;
+}
+footer .copyright .copyrightTxt {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .copyright .copyrightTxt p {
+  color: #777;
+}
+footer .copyright .copyrightTxt p span {
+  color: #fff;
+}
